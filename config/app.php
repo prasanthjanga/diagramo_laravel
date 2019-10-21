@@ -174,6 +174,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        prasanth\diagramo\DiagramoServiceProvider::class, // DIAGRAMO PACKAGE CONFIG 
 
     ],
 
