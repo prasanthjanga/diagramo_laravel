@@ -39,6 +39,13 @@ Step 4: got to browser and try to access the URL as following
 http://localhost/project_name/public/diagramo/index
 ```
 
+If you facing any issue like following
+```bash
+View [delegate] not found. (View: c:\xampp\htdocs\project_name\packages\prasanth\diagramo\src\views\index.blade.php)
+```
+### Solution
+rename your `.blade.php` to `.php` in `packages/prasanth/diagramo/src/views/`
+
 
 
 #### Note: 
